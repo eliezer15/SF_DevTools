@@ -6,7 +6,13 @@
         "contextMenus",
         "activeTab",
         "clipboardWrite"
-     ],
+    ],
+    "icons":{
+        "16": "icon_small.png",
+        "48": "icon_medium.png",
+        "128": "icon_large.png"
+    },
+    
     "background":{
         "persistent": false,
         "scripts": [
