@@ -3,6 +3,7 @@
     "description": "A set of tools to automate regular tasks in ShareFile development",
     "version":"0.5",
     "permissions": [
+        "*://*.sharefiledev.com/*",
         "contextMenus",
         "activeTab",
         "clipboardWrite"
@@ -16,7 +17,7 @@
     "background":{
         "persistent": false,
         "scripts": [
-            "sample.js"
+            "main.js"
          ]
     },
     "page_action": {
